@@ -18,10 +18,14 @@ nav ul{
 
 }
 
-.icon-menu:hover ul{
+/* nav:hover li{
+  display: block;
+} */
+
+/* .icon-menu:hover ul{
   display: block;
   list-style-type: none;
-}
+} */
 
 nav li{
   font-size: 0.5em;
@@ -30,12 +34,16 @@ nav li{
 
 @media only screen and (min-width: 640px){
 
-  #nav-bar li {
+  a {
     display: inline-block;
   }
 
   .icon-menu{
     display: none;
+  }
+
+  body{
+    background: pink;
   }
 
 }
