@@ -1,6 +1,6 @@
 'use strict';
 
-$('#nav').on('click', function(){
+$('.icon-menu').on('click', function(){
   $('.icon-menu').toggle();
 
 });
