@@ -1,3 +1,4 @@
+
 a {
   display: none;
 
@@ -10,17 +11,22 @@ a {
 
 body{
   background-color: black;
+  font-family: 'Archivo Black', sans-serif;
+
 }
 
 p{
   color: white;
-  font-size: 7em; 
+  font-size: 6em; 
 }
 
 @media only screen and (min-width: 640px){
 
+
   a {
     display: inline-block;
+    color: black;
+    text-align: center;
   }
 
   .icon-menu{
@@ -29,11 +35,12 @@ p{
 
   body{
     background: pink;
+    /* width: 50%; */
   }
 
   p{
     color: black;
-    font-size: 8em;
+    font-size: 6em;
     margin-bottom: 0.5em;
   }
 
