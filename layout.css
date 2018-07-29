@@ -22,11 +22,30 @@ p{
 
 @media only screen and (min-width: 640px){
 
+ html{
+   margin-right: 10%;
+   margin-left: 10%;
+   margin-top: 2%;
+ } 
+
+  nav{
+    margin: 3em 3em 3em 3em;
+    text-align: center;
+  }
+
+  .navbar p{
+    font-size: 1.5em;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
 
   a {
     display: inline-block;
     color: black;
-    text-align: center;
+    text-decoration: none;
+    margin-right: 2em;
+    margin-left: 2em;
+    
   }
 
   .icon-menu{
@@ -35,12 +54,12 @@ p{
 
   body{
     background: pink;
-    /* width: 50%; */
+    
   }
 
   p{
     color: black;
-    font-size: 6em;
+    font-size: 3.5em;
     margin-bottom: 0.5em;
   }
 
