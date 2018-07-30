@@ -13,16 +13,13 @@ a {
 }
 
 #a, #b, #c, #d, #e, #f, #g, #h{
-  background-color: black;
+  background-color: grey;
   margin-bottom: 1em;
   color: white;
   height: 300px;
+  text-align: center;
 }
 
-.icon-menu:active{
-  display: block;
-
-}
 
 body{
   background-color: white;
@@ -31,8 +28,9 @@ body{
 
 p{
   color: black;
-  font-size: 3em; 
-  background-color: yellow;
+  font-size: 2em; 
+  background-color: grey;
+  margin-top: 0%;
 }
 
 @media only screen and (min-width: 640px){
