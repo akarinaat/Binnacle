@@ -1,7 +1,24 @@
+html{
+  margin-right: 7%;
+  margin-left: 7%;
+}
 
 a {
   display: none;
 
+}
+
+.navbar p{
+  display: none;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h{
+  background-color: black;
+  margin-bottom: 1em;
+  color: white;
+  text-align: center;
+  width: 250px;
+  height: 300px;
 }
 
 .icon-menu:active{
@@ -10,14 +27,14 @@ a {
 }
 
 body{
-  background-color: black;
+  background-color: white;
   font-family: 'Archivo Black', sans-serif;
-
 }
 
 p{
-  color: white;
-  font-size: 6em; 
+  color: black;
+  font-size: 3em; 
+  background-color: yellow;
 }
 
 @media only screen and (min-width: 640px){
@@ -29,7 +46,7 @@ p{
  } 
 
   nav{
-    margin: 3em 3em 3em 3em;
+    margin: 2em 3em 3em 3em;
     text-align: center;
   }
 
@@ -37,14 +54,17 @@ p{
     font-size: 1.5em;
     margin-bottom: 0%;
     margin-top: 0%;
+    color: black;
   }
+
+  
 
   a {
     display: inline-block;
-    color: black;
+    color:black;
     text-decoration: none;
-    margin-right: 2em;
-    margin-left: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
     
   }
 
